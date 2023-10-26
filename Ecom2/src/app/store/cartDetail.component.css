@@ -1,0 +1,12 @@
+.btn-apply-coupon:hover {
+    background-color: #007bff; /* Change to your preferred color */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the button when the coupon is applied */
+.btn-apply-coupon.applied {
+    background-color: #28a745; /* Change to your preferred color */
+    color: #fff;
+    cursor: not-allowed;
+}

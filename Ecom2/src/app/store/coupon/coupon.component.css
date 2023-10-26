@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+
+.discount-box {
+    background-color: #ff6600; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff; 
+    position: relative;     
+}
+
+.close-button {
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+    font-size: 12px; 
+    padding: 5px 10px; 
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px; 
+}
+
+button {
+    background-color: #ff3300; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green; 
+}

@@ -1,0 +1,9 @@
+<div class="container justify-content-center">
+    <div class="discount-box">
+        <button class="m btn btn-sm close-button" (click)="checkValue()" routerLink="/store" >X</button>
+        <h1>Get 10% Off</h1>
+        <p>Exclusive Discount Offer</p>
+        <p>Use this coupon code for getting 10% Discount in your purchase.</p>
+        <button class="btn" (click)="giveDiscount()" [disabled]="isDiscount">SUMMARSALE10</button>
+    </div>
+</div>

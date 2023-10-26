@@ -1,0 +1,14 @@
+<div *ngIf="product" class="product-description">
+    <div class="d-flex justify-content-center flex-column">
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.price | currency: "USD": "symbol": "2.2-2" }}</p>
+        <p>{{ product.description }}</p>
+        <div >
+            <button class="btn btn-warning float-end" (click)="store.addProductToCart(product)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+
+
+ 
